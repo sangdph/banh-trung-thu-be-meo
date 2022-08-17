@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 1000px;
+    background-color: #f9ddac;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    text-align: center;
+}
+.containt-moon-cake{
+    width: 300px;
+    height: 610px;
+    padding-top: 5px;
+    background-color: rgb(218, 75, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(218, 75, 75);
+    border-radius: 10px;
+}
+
+.img-moon-cake{
+    width: 280px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 10px;
+    padding: 5px;
+    width: 280px;
+    height: 360px;
+    background-color: #e6e3df;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.content h1{
+    font-size: 20px;
+}
+.btn-random{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(171, 145, 127);
+}
